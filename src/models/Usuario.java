@@ -41,6 +41,10 @@ public class Usuario {
         }
     }
     
+    public static List<Usuario> listarUsuarios(){
+        return usuarios;
+    }
+    
     public String getUsuario() {
         return usuario;
     }
